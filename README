@@ -1,0 +1,89 @@
+# Clock Fix Pro
+
+**Batch-change the recording date and time of your video clips.**
+Free desktop app for Windows 10 and 11.
+
+Download → [**Latest release**](../../releases/latest)
+
+---
+
+## The problem
+
+You shot with several cameras. One of them had the wrong clock — off by
+three hours, or still on last year's date because the battery died.
+
+Now the files are dated at a moment that never happened. Your editor
+sorts them by that date, so the takes land all over the place and
+automatic sync has nothing to work with.
+
+## What it does
+
+Clock Fix Pro rewrites the recording date and time stored **inside** your
+clips, in batches, before you bring them into an editor.
+
+Not the file creation date Windows shows — that one changes on its own
+every time you copy a folder. It writes the internal metadata your editor
+actually reads: `QuickTime:CreateDate`, `MediaCreateDate` and the
+matching EXIF tags.
+
+- **Two ways to fix it.** Set one exact date and time for the whole
+  batch, or add and subtract time from whatever each clip already had.
+  The second is what repairs a clock that ran three hours behind without
+  losing the gaps between takes.
+- **No re-encoding.** Only the metadata is touched. Picture and audio
+  stay exactly as they were, bit for bit, and the job takes seconds.
+- **You see it before it happens.** Every row shows its current date and
+  the one it will get.
+- **With a way back.** It keeps a backup of every clip and one button
+  undoes the whole batch. It can also write the corrected copies to a
+  separate folder and never touch your originals.
+- **Nothing leaves your computer.** No uploads, no account, no telemetry.
+
+## Free and Pro
+
+The free version fixes dates and times, with **no limit on how many
+clips**. No quotas, no expiry, no account.
+
+Pro adds the rest of the metadata a working shoot needs:
+
+| | Free | Pro |
+|---|---|---|
+| Recording date and time | ✅ | ✅ |
+| Clips per batch | unlimited | unlimited |
+| Backup copies and undo | ✅ | ✅ |
+| Time zone | | ✅ |
+| Camera make and model | | ✅ |
+| Reel name, scene, notes | | ✅ |
+| Title, description, keywords | | ✅ |
+| Batch renaming with patterns | | ✅ |
+
+**€3.99/month or €33/year.** Cancel whenever you like.
+
+## Supported formats
+
+MP4, MOV, AVI, MXF, MTS and the other common video containers.
+Powered by [ExifTool](https://exiftool.org/).
+
+## Where it fits
+
+Clock Fix Pro is the step *before* ingest. With the clocks lined up,
+[Ingest Pro](https://www.ingest-pro.com) can rebuild your multicam day as
+a single timeline with the real time between takes.
+
+## Install
+
+Download the installer from [Releases](../../releases/latest) and run it.
+Windows 10 or 11, 64-bit.
+
+> Windows may warn about an unrecognised publisher on first run. The app
+> is not code-signed yet.
+
+## Support
+
+[support@ingest-pro.com](mailto:support@ingest-pro.com) ·
+[ingest-pro.com/clock-fix-pro](https://www.ingest-pro.com/clock-fix-pro)
+
+---
+
+© 2026 VT Prods. This repository hosts releases and documentation.
+The application source is not public.
